@@ -1,0 +1,164 @@
+body{
+    font-family: 'Montserrat';
+    scroll-behavior: smooth;
+}
+p{
+    color: #8f8f8f;
+}
+h3{
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+h2{
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+#title{
+    background-image: linear-gradient(#ff4c68, rgb(255, 123, 0));
+    color: aliceblue;
+    
+    
+}
+
+/* body{
+    
+font-family: 'Ubuntu', sans-serif;
+} */
+
+#h11{
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+    
+}
+.second-row{
+    width: 60%;
+    margin: 100px auto;
+}
+.container-fluid{
+    padding: 5% 15%;
+}
+.col-lg-6{
+    position: relative;
+}
+.phone-dog{
+    transform: rotate(25deg);
+    width: 50%;
+    position: absolute;
+    right: 30%;
+    
+}
+.row{
+    margin-top: 50px;
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.nav-item{
+    padding: 0 15px;
+    
+}
+.nav-link{
+    font-size: 1.2rem;
+    color: #fff;
+
+    
+}
+.download-button{
+    margin-top: 5%;
+    margin-right: 3%;
+}
+#features{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+    
+}
+.icon{
+    color: rgb(255, 123, 0) ;
+    margin-bottom: 10px;
+}
+.icon:hover{
+    color:#e26613 ;
+}
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.press-logo{
+    width: 12%;
+    margin: 20px 15px;
+}
+.carousel-item{
+    padding: 4% 15%;
+
+}
+.pricing-column{
+    padding: 2% 3%;
+    
+}
+.card{
+    border: black solid 1px;
+}
+.footer-h2{
+    width: 60%;
+    margin: auto;
+    padding-bottom: 3rem;
+}
+.footer-icon{
+    margin-top: 70px;
+    margin-bottom: 30px;
+    padding-right: 2rem;
+}
+.footer-button{
+    margin-right: 2%;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+#testimonials{
+    /* width: 60%; */
+    
+   
+    
+    text-align: center;
+    color: #fff;
+    background-image: linear-gradient(rgb(255, 123, 0),#ff4c68 );
+}
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
+    padding: 3rem 6.3rem 6.3rem 6.3rem;
+    
+}
+#footer{
+    text-align: center;
+    background-color: #fff;
+    color: #8f8f8f;
+
+}
+@media (max-width:1000px ) {
+
+    .phone-dog{
+        position: static;
+        transform: rotate(0);
+        width: 40%;
+    }
+    #title{
+        text-align: center;
+    }
+}
